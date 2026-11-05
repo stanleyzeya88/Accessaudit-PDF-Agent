@@ -56,9 +56,6 @@ Run all cells from top to bottom. The notebook will automatically generate five 
 ![Architecture Diagram](Architecture%20Diagram.png)
 
 ### The Agentic Loop
-1. **Input Gate:** ...
-
-### The Agentic Loop
 1. **Input Gate:** Validates the file extension (`.pdf`), size (max 25MB), page count (max 200), and magic bytes (`%PDF-`) before any parsing occurs.
 2. **Planner:** Selects the next tool based on prior observations. If the PDF is untagged, it skips dependent checks (like alt-text).
 3. **Tool Execution:** Runs one of six registered deterministic tools.
