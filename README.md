@@ -1,4 +1,3 @@
-```markdown
 # AccessAudit: Semi-Autonomous PDF Accessibility Compliance Auditing Agent
 
 ## 📌 Overview
