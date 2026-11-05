@@ -1,0 +1,6 @@
+ID,Category,Scenario,Agent bug?,Symptom (short)
+F-1,test-harness,F1_compliant,No,"Expected-vs-actual comparison (§7.3 v1) flagged F1 as a mismatch: ""inspect_links..."
+F-2,design-divergence,F2_untagged_imageonly,No,F2 ran for 4 iterations (expected 2). Both mandatory checks (check_tagged_pdf an...
+F-3,tool-limitation,"F1, F3, F4",No,"On every tagged, text-bearing fixture, inspect_links returns ""cannot verify — an..."
+F-4,llm-boundary,F3_missing_alt_text,No,The LLM reworded the alt-text tool's raw message '1 of 1 images lack /Alt' into ...
+F-5,documented-limitation,All (input gate),No,"validate_input enforces extension, size, header, and page count — but does not i..."

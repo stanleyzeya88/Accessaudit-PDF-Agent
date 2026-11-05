@@ -1,0 +1,6 @@
+Scenario,Refused,Iterations,Findings,Passes,Fails,Cannot verify,Fail checks,Cannot verify checks,Rechecks,Finalized
+F1_compliant,False,6,6,5,0,1,—,inspect_links,—,True
+F2_untagged_imageonly,False,4,2,0,2,0,"check_tagged_pdf, get_metadata",—,"{'check_tagged_pdf': 1, 'get_metadata': 1}",True
+F3_missing_alt_text,False,7,6,4,1,1,inventory_alt_text,inspect_links,{'inventory_alt_text': 1},True
+F4_wrong_language,False,7,6,4,1,1,get_metadata,inspect_links,{'get_metadata': 1},True
+F5_malformed,True,0,0,0,0,0,—,—,—,True

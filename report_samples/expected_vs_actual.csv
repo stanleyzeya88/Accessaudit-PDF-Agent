@@ -1,0 +1,6 @@
+Scenario,Expected,Actual,Match,Notes
+F1_compliant,6 checks,"6 iter, 6 findings",✓,all expected findings present
+F2_untagged_imageonly,2 checks,"4 iter, 2 findings",✓,all expected findings present
+F3_missing_alt_text,1 checks,"7 iter, 6 findings",✓,all expected findings present
+F4_wrong_language,1 checks,"7 iter, 6 findings",✓,all expected findings present
+F5_malformed,refuse,refused,✓,"refused=True, expected refusal"

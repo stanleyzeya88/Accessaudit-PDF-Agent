@@ -1,0 +1,8 @@
+pypdf==6.21.4
+pdfminer.six==20260107
+PyMuPDF==1.28.2
+reportlab==5.1.0
+openai==3.42.1
+python-dotenv
+pandas==2.3.3
+pillow
