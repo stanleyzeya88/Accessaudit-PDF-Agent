@@ -51,8 +51,6 @@ Run all cells from top to bottom. The notebook will automatically generate five 
 
 ## 🏗️ Architecture & Features
 
-## 🏗️ Architecture & Features
-
 ![Architecture Diagram](Architecture%20Diagram.png)
 
 ### The Agentic Loop
